@@ -1,15 +1,15 @@
 machine:
-    timezone:
-        Europe/London
-    python:
-        version: 3.5.0
+  timezone:
+    Europe/London
+  python:
+    version: 3.5.0
 
 
 dependencies:
-    pre:
-        - pip install pytest
+  pre:
+    - pip install pytest
 
 
 test:
-    override:
-        -py,test -v
+  override:
+    -py,test -v
